@@ -6,7 +6,7 @@ In the highly volatile cryptocurrency market, pump-and-dump schemes occur when p
 # Solution
 To address this challenge, our project employs machine learning-based anomaly detection to accurately identify potential pump-and-dump events. The approach involves collecting historical price and volume data from sources like Binance, CoinGecko, and Kaggle, followed by preprocessing the data to handle missing values and standardize timestamps. We engineer key features such as Price Surge Ratio, Volume Surge Ratio, Relative Strength Index, moving averages, and Bollinger Bands to capture essential market dynamics. By applying an Isolation Forest model across multiple cryptocurrency datasets, anomalies are detected effectively and evaluated using metrics like precision, recall, F1-score, and ROC AUC. Visualizations such as confusion matrices and ROC curves further assist in comparing model performance, resulting in a robust, scalable solution that enhances market transparency and protects investors.
 
-#Tools 
+# Tools 
   Python
   Pandas & NumPy
   Scikit-learn
@@ -16,7 +16,7 @@ To address this challenge, our project employs machine learning-based anomaly de
   Git / GitHub
   Matplotlib / Seaborn
 
-#Methodology
+# Methodology
   1. Data Collection
   •	Sources: Data is collected from cryptocurrency exchanges including Binance and CoinGecko.
   •	Preprocessing: The data is cleaned by handling missing values and standardizing timestamps to ensure consistency.
